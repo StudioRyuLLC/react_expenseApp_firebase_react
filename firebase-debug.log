@@ -1,13 +1,13 @@
-[debug] [2024-02-16T00:43:19.622Z] ----------------------------------------------------------------------
-[debug] [2024-02-16T00:43:19.626Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Studio-Ryu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2024-02-16T00:43:19.627Z] CLI Version:   13.2.1
-[debug] [2024-02-16T00:43:19.627Z] Platform:      win32
-[debug] [2024-02-16T00:43:19.627Z] Node Version:  v20.11.0
-[debug] [2024-02-16T00:43:19.627Z] Time:          Thu Feb 15 2024 18:43:19 GMT-0600 (Central Standard Time)
-[debug] [2024-02-16T00:43:19.627Z] ----------------------------------------------------------------------
+[debug] [2024-02-16T01:34:19.979Z] ----------------------------------------------------------------------
+[debug] [2024-02-16T01:34:19.983Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Studio-Ryu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-16T01:34:19.984Z] CLI Version:   13.2.1
+[debug] [2024-02-16T01:34:19.984Z] Platform:      win32
+[debug] [2024-02-16T01:34:19.984Z] Node Version:  v20.11.0
+[debug] [2024-02-16T01:34:19.984Z] Time:          Thu Feb 15 2024 19:34:19 GMT-0600 (Central Standard Time)
+[debug] [2024-02-16T01:34:19.985Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-02-16T00:43:19.730Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-02-16T00:43:19.730Z] > authorizing via signed-in user (studioryume@gmail.com)
+[debug] [2024-02-16T01:34:20.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-16T01:34:20.087Z] > authorizing via signed-in user (studioryume@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -30,46 +30,46 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2024-02-16T00:44:45.878Z] Using project from CLI flag: reactexpenseapp-8fb2a
-[debug] [2024-02-16T00:44:45.883Z] > refreshing access token with scopes: []
-[debug] [2024-02-16T00:44:45.886Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
-[debug] [2024-02-16T00:44:45.886Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2024-02-16T00:44:46.206Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
-[debug] [2024-02-16T00:44:46.206Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2024-02-16T00:44:46.278Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a [none]
-[debug] [2024-02-16T00:44:46.514Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a 200
-[debug] [2024-02-16T00:44:46.514Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a {"projectId":"reactexpenseapp-8fb2a","projectNumber":"835698041913","displayName":"reactExpenseApp","name":"projects/reactexpenseapp-8fb2a","resources":{"hostingSite":"reactexpenseapp-8fb2a"},"state":"ACTIVE","etag":"1_6eed923b-50fb-47a8-9763-6729fbeab798"}
+[debug] [2024-02-16T01:34:38.915Z] Using project from CLI flag: reactexpenseapp-8fb2a
+[debug] [2024-02-16T01:34:38.918Z] > refreshing access token with scopes: []
+[debug] [2024-02-16T01:34:38.921Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-16T01:34:38.921Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-16T01:34:39.438Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-02-16T01:34:39.438Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-16T01:34:39.519Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a [none]
+[debug] [2024-02-16T01:34:39.792Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a 200
+[debug] [2024-02-16T01:34:39.793Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a {"projectId":"reactexpenseapp-8fb2a","projectNumber":"835698041913","displayName":"reactExpenseApp","name":"projects/reactexpenseapp-8fb2a","resources":{"hostingSite":"reactexpenseapp-8fb2a"},"state":"ACTIVE","etag":"1_6eed923b-50fb-47a8-9763-6729fbeab798"}
 [info] i  Using project reactexpenseapp-8fb2a (reactExpenseApp) 
 [info] 
 === Hosting Setup
-[debug] [2024-02-16T00:44:46.610Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a [none]
-[debug] [2024-02-16T00:44:46.800Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a 200
-[debug] [2024-02-16T00:44:46.800Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a {"projectId":"reactexpenseapp-8fb2a","projectNumber":"835698041913","displayName":"reactExpenseApp","name":"projects/reactexpenseapp-8fb2a","resources":{"hostingSite":"reactexpenseapp-8fb2a"},"state":"ACTIVE","etag":"1_6eed923b-50fb-47a8-9763-6729fbeab798"}
+[debug] [2024-02-16T01:34:39.853Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a [none]
+[debug] [2024-02-16T01:34:39.975Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a 200
+[debug] [2024-02-16T01:34:39.975Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactexpenseapp-8fb2a {"projectId":"reactexpenseapp-8fb2a","projectNumber":"835698041913","displayName":"reactExpenseApp","name":"projects/reactexpenseapp-8fb2a","resources":{"hostingSite":"reactexpenseapp-8fb2a"},"state":"ACTIVE","etag":"1_6eed923b-50fb-47a8-9763-6729fbeab798"}
 [info] 
 [info] Your public directory is the folder (relative to your project directory) that
 [info] will contain Hosting assets to be uploaded with firebase deploy. If you
 [info] have a build process for your assets, use your build's output directory.
 [info] 
 [info] i  Skipping write of public/404.html 
-[debug] [2024-02-16T00:45:43.852Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
-[debug] [2024-02-16T00:45:43.986Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
-[debug] [2024-02-16T00:45:43.986Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.8.0","browserURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.tgz"},"live":{"version":"10.8","browserURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.8.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.8.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.8.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.8.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.8.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.memory.js"}}
+[debug] [2024-02-16T01:35:11.764Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-02-16T01:35:11.900Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-02-16T01:35:11.900Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.8.0","browserURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.tgz"},"live":{"version":"10.8","browserURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.8.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.8.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.8.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.8.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.8.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.memory.js"}}
 [info] i  Skipping write of public/index.html 
 [info] 
 [info] i  Detected a .git folder at C:\Users\Studio-Ryu\react_expenseapp 
 [info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
 [info] 
 [info] Visit this URL on this device to log in:
-[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=215734072&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=186962720&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
 [info] 
 [info] Waiting for authentication...
-[debug] [2024-02-16T00:45:47.292Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
-[debug] [2024-02-16T00:45:47.292Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
-[debug] [2024-02-16T00:45:47.557Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
-[debug] [2024-02-16T00:45:47.558Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
-[debug] [2024-02-16T00:45:47.570Z] >>> [apiv2][query] GET https://api.github.com/user [none]
-[debug] [2024-02-16T00:45:47.868Z] <<< [apiv2][status] GET https://api.github.com/user 200
-[debug] [2024-02-16T00:45:47.868Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"StudioRyuLLC","id":23292870,"node_id":"MDQ6VXNlcjIzMjkyODcw","avatar_url":"https://avatars.githubusercontent.com/u/23292870?v=4","gravatar_id":"","url":"https://api.github.com/users/StudioRyuLLC","html_url":"https://github.com/StudioRyuLLC","followers_url":"https://api.github.com/users/StudioRyuLLC/followers","following_url":"https://api.github.com/users/StudioRyuLLC/following{/other_user}","gists_url":"https://api.github.com/users/StudioRyuLLC/gists{/gist_id}","starred_url":"https://api.github.com/users/StudioRyuLLC/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/StudioRyuLLC/subscriptions","organizations_url":"https://api.github.com/users/StudioRyuLLC/orgs","repos_url":"https://api.github.com/users/StudioRyuLLC/repos","events_url":"https://api.github.com/users/StudioRyuLLC/events{/privacy}","received_events_url":"https://api.github.com/users/StudioRyuLLC/received_events","type":"User","site_admin":false,"name":"StudioRyu","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":10,"public_gists":0,"followers":0,"following":0,"created_at":"2016-11-06T12:33:34Z","updated_at":"2018-06-20T18:39:08Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":554,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[debug] [2024-02-16T01:35:15.769Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-02-16T01:35:15.769Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-02-16T01:35:16.203Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-02-16T01:35:16.204Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-02-16T01:35:16.234Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-02-16T01:35:16.559Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-02-16T01:35:16.559Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"StudioRyuLLC","id":23292870,"node_id":"MDQ6VXNlcjIzMjkyODcw","avatar_url":"https://avatars.githubusercontent.com/u/23292870?v=4","gravatar_id":"","url":"https://api.github.com/users/StudioRyuLLC","html_url":"https://github.com/StudioRyuLLC","followers_url":"https://api.github.com/users/StudioRyuLLC/followers","following_url":"https://api.github.com/users/StudioRyuLLC/following{/other_user}","gists_url":"https://api.github.com/users/StudioRyuLLC/gists{/gist_id}","starred_url":"https://api.github.com/users/StudioRyuLLC/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/StudioRyuLLC/subscriptions","organizations_url":"https://api.github.com/users/StudioRyuLLC/orgs","repos_url":"https://api.github.com/users/StudioRyuLLC/repos","events_url":"https://api.github.com/users/StudioRyuLLC/events{/privacy}","received_events_url":"https://api.github.com/users/StudioRyuLLC/received_events","type":"User","site_admin":false,"name":"StudioRyu","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":9,"public_gists":0,"followers":0,"following":0,"created_at":"2016-11-06T12:33:34Z","updated_at":"2018-06-20T18:39:08Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":554,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
 [info] 
 [info] +  Success! Logged into GitHub as StudioRyuLLC 
 [info] 
